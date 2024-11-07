@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    font-family: Arial; 
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    
+}
+
+.logo {
+    background-image: url(coollogo_com-68481170.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%; 
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-first {
+    color: #63d671;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 650px;
+    height: 40px;
+    border-radius:4px ;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:rgb(178, 7, 7);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0a0a0a;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(251, 149, 16) ;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.pad {
+    padding: 5px 5px 5px 5px;
+}
+
+.cart-icon i {
+    font-size: 30px;
+}
+
+.cart-icon {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #09d11a;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    display: flex;
+}
+
+.panel-all p {
+    padding-left: 5px;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+    padding: 8px 9px;
+}
+
+.panel-ops p:hover {
+    border: 1.5px solid transparent;
+}
+.panel-ops p:hover {
+    border: 1.5px solid white;
+}
+
+.panel-ops {
+    width: 90%;
+    font-size: 0.85rem;
+}
+
+
+.hero-section {
+    background-image: url(hero-sec.jpg);
+    background-size: cover;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.85rem;
+    width: 98%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+.shop-sec {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #66c679;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.a{
+    background-image: url(Sona\ Masori.jpeg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.b{
+    background-image: url(Basmati.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.c{
+    background-image: url(Red.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.d{
+    background-image: url(Sushi.webp);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.e{
+    background-image: url(Brown.webp);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.f{
+    background-image: url(Black.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.g{
+    background-image: url(Sushi.webp);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.h{
+    background-image: url(Basmati.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.i{
+    background-image: url(Moong.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.j{
+    background-image: url(Chana.webp);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.k{
+    background-image: url(Masoor.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.l{
+    background-image: url(Moth.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.m{
+    background-image: url(Rajma.webp);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.n{
+    background-image: url(Urad.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.o{
+    background-image: url(Toor.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.p{
+    background-image: url(Masoor.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.ele-img1 {
+    background-image: url(elec.jpg);
+    background-size: cover;
+    height: 77px;
+    width: 30%;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+}
+
+
+
+.foot-panel1 {
+    color: white;
+    background-color: #374758;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul p {
+    margin-bottom: 14px;
+    font-size: 1rem;
+}
+
+ul a {
+    display: block;
+    color: #DDDDDD;
+    margin-bottom: 10px;
+    
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.001rem solid #DDDDDD;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+
+}
+
+.logo  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
